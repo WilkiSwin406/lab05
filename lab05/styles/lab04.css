@@ -1,0 +1,44 @@
+/*
+
+filename: lab04.css
+
+author: Benjamin Wilkinson
+
+created: 26/03/2025
+
+last modified: 26/03/2025
+
+description: lab04.html
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2 {
+    color: rgb(38, 196, 196);
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+   }
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+#images {
+    text-align : center;  /* careful: center has US spelling */
+    }
+
+.special {
+        color: rgb(174, 174, 21);
+        }
+
+

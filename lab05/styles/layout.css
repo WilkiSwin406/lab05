@@ -1,0 +1,110 @@
+aside {
+    float: right;
+    width: 30%;
+    border: 4px inset purple;
+    padding: 1em;
+    margin: 1em;
+    background:url(images/fade.jpg) repeat-x top left; 
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 14px;
+}
+
+aside:hover {
+    display:block;
+    
+}
+
+header {
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+
+nav ul { 
+    list-style:none;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+#hyperlinks {
+    clear:both;
+    float: left;
+}
+
+
+#lists, #images, #tables, #hyperlinks{
+    width: 50%;
+    text-align: center;
+}
+
+#images {
+    float: right;
+}
+
+#footer {
+    clear: both;
+}
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+    margin: auto;
+}
+
+#hyperlinks {
+    clear: left;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+    text-align: center;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+footer p:first-child {
+    float:left; 
+}
+
+footer p:nth-child(2) {
+    text-align: center; 
+}
+
+footer p:last-child {
+    float:right; 
+    text-align:right; 
+}
